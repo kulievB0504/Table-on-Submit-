@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="Gilroy/stylesheet.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h1 style="text-transform: uppercase;">добавление, изменение и удаление элемента из таблицы
+            </h1>
+
+            <!-- <div class="goods_btn_cont">
+                <button class="goods_add">Добавить новый товар</button>
+            </div> -->
+
+            <form class="form">
+                <div class="left">
+                    <label for="before">Имя</label>
+                    <input type="text" id="before" name="text" placeholder="Full name">
+                </div>
+
+                <div class="right">
+                    <label for="after">Возраст</label>
+                    <input type="text" id="after" name="text" placeholder="Age">
+                </div>
+
+                <button class="sub_btn" type="submit">Показать</button>
+
+            </form>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Имя студента</th>
+                    <th>Возраст</th>
+                    <th>Год рождения</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td id="number">1</td>
+                    <td id="name">Иван</td>
+                    <td id="age">20</td>
+                    <td id="birth">1995</td>
+                    <td id="actions" class="edit_garbage">
+                        <div class="editing"><img src="img/1976055_edit_edit document_edit file_edited_editing_icon.svg"
+                                alt=""></div>
+                        <div class="garbage"><img src="img/3844425_can_trash_icon.svg" alt=""></div>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <div class="modal">
+        <div class="modal-dialog">
+            <h2>Заголовок: </h2>
+            <form name="changeTodo">
+                <input type="text">
+                <div class="btn_box">
+                    <button type="submit">Изменить</button>
+                    <button type="button" data-close class="Отмена">Отменить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
